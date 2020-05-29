@@ -98,6 +98,108 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* base styles */
+body{
+ font-family: 'Open Sans', sans-serif;
+ width:100%;
+}
+
+h1, h2, h3, h4,{
+  font-family: 'Poppins', sans-serif;
+}
+
+.content-wrapper{
+  width:80%;
+}
+
+/*------- header -------*/
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header content-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width:40%;
+}
+
+/*--------- hero --------*/
+
+.hero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+
+/*------- aside ------*/
+
+aside{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+
+/*------- features ------*/
+
+.features{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+.features .content-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+.features-wrapper{
+  text-align: center;
+  width: 50%;
+}
+
+/*------- reviews ------*/
+
+.reviews{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+/*------- contact ------*/
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    text-align: center;
+}
+
+footer .content-wrapper{
+  width: 55%;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -262,4 +364,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
